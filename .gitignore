@@ -1,0 +1,14 @@
+# Python cache/build
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Local/runtime artifacts
+session/
+.test_tmp_session_default/
+.research/
+.tmp_*
+
+# External clone used for comparison only
+Baileys/

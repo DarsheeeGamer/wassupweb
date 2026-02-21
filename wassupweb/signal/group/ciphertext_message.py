@@ -1,0 +1,8 @@
+class CiphertextMessage:
+    UNSUPPORTED_VERSION: int = 1
+    CURRENT_VERSION: int = 3
+    WHISPER_TYPE: int = 2
+    PREKEY_TYPE: int = 3
+    SENDERKEY_TYPE: int = 4
+    SENDERKEY_DISTRIBUTION_TYPE: int = 5
+    ENCRYPTED_MESSAGE_OVERHEAD: int = 53
