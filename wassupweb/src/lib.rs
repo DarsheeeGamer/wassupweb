@@ -168,3 +168,7 @@ fn wassupweb(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_class::<PyFullJid>()?;
     Ok(())
 }
+
+// Export generic utils to Python/Node.js is complex due to complex structured types (`BinaryNode`).
+// For now, we will add basic API bindings if needed, but primarily these are Rust-internal
+// abstractions. Python currently relies on python objects directly, so we map them as needed.
