@@ -1,0 +1,3 @@
+[submodule "References/Baileys"]
+	path = References/Baileys
+	url = https://github.com/WhiskeySockets/Baileys
