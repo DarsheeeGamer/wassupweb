@@ -11,4 +11,7 @@ session/
 .tmp_*
 
 # External clone used for comparison only
-Baileys/
+# Baileys/
+
+target/
+wassupweb/target/
